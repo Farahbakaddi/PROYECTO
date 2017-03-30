@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Èric Garcia Reverter
+ * @author Farah bakaddi
  */
 public class PROJECTE_Farah {
 
