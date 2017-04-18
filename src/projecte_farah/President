@@ -1,0 +1,62 @@
+/**
+ *
+ * @author alumne Farah
+ */
+public class President {
+    
+        // TODO code application logic here
+    
+        private String nomPresident=null;
+        private int fills=0;
+        private boolean estaManant=false;
+        private double altura=0.0;        
+        private boolean omplit=false;
+        
+    public String getNomPresident() {
+        return nomPresident;
+    }
+
+    public void setNomPresident(String nomPresident) {
+        this.nomPresident = nomPresident;
+    }
+
+    public int getFills() {
+        return fills;
+    }
+
+    public void setFills(int fills) {
+        this.fills = fills;
+    }
+
+    public boolean isEstaManant() {
+        return estaManant;
+    }
+
+    public void setEstaManant(boolean estaManant) {
+        this.estaManant = estaManant;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public boolean isOmplit() {
+        return omplit;
+    }
+
+    public void setOmplit(boolean omplit) {
+        this.omplit = omplit;
+    }
+
+    @Override
+    public String toString() {
+        return "President{" + "nomPresident=" + nomPresident + ", fills=" + fills + ", estaManant=" + estaManant + ", altura=" + altura + '}';
+    }
+
+        
+   
+}
